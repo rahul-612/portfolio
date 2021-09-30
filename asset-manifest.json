@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4abad8dd.chunk.css",
-    "main.js": "/portfolio/static/js/main.7f1ddc5e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7f1ddc5e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.90035d93.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.90035d93.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.5483d5da.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.5483d5da.js.map",
     "static/js/2.fc15400f.chunk.js": "/portfolio/static/js/2.fc15400f.chunk.js",
@@ -10,12 +10,30 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.4abad8dd.chunk.css.map": "/portfolio/static/css/main.4abad8dd.chunk.css.map",
     "static/js/2.fc15400f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fc15400f.chunk.js.LICENSE.txt",
-    "static/media/about.css": "/portfolio/static/media/my.1cbcdeec.jpg"
+    "static/media/analog_clock.97198f27.jpg": "/portfolio/static/media/analog_clock.97198f27.jpg",
+    "static/media/black_jack.4b8e0820.jpg": "/portfolio/static/media/black_jack.4b8e0820.jpg",
+    "static/media/budget_app.678f89aa.jpg": "/portfolio/static/media/budget_app.678f89aa.jpg",
+    "static/media/cal.3fa4d73b.jpg": "/portfolio/static/media/cal.3fa4d73b.jpg",
+    "static/media/chat_app.c58b4201.jpg": "/portfolio/static/media/chat_app.c58b4201.jpg",
+    "static/media/covid_tracker.1453aac7.jpg": "/portfolio/static/media/covid_tracker.1453aac7.jpg",
+    "static/media/cv_screener.eeec3c6a.jpg": "/portfolio/static/media/cv_screener.eeec3c6a.jpg",
+    "static/media/drag_drop.1bc0b096.jpg": "/portfolio/static/media/drag_drop.1bc0b096.jpg",
+    "static/media/food_delivery.f1b29acd.jpg": "/portfolio/static/media/food_delivery.f1b29acd.jpg",
+    "static/media/keep_clone.3ea03c47.jpg": "/portfolio/static/media/keep_clone.3ea03c47.jpg",
+    "static/media/lead_tracker.ff1e4f44.jpg": "/portfolio/static/media/lead_tracker.ff1e4f44.jpg",
+    "static/media/moving_car.ae43ac5c.jpg": "/portfolio/static/media/moving_car.ae43ac5c.jpg",
+    "static/media/about.css": "/portfolio/static/media/my.1cbcdeec.jpg",
+    "static/media/node_weather.816c8a53.jpg": "/portfolio/static/media/node_weather.816c8a53.jpg",
+    "static/media/postman.19ca0414.jpg": "/portfolio/static/media/postman.19ca0414.jpg",
+    "static/media/snake.c8866f49.jpg": "/portfolio/static/media/snake.c8866f49.jpg",
+    "static/media/special_effects.93913262.jpg": "/portfolio/static/media/special_effects.93913262.jpg",
+    "static/media/todo.735ae1a6.jpg": "/portfolio/static/media/todo.735ae1a6.jpg",
+    "static/media/weather_app.1f6e34c1.jpg": "/portfolio/static/media/weather_app.1f6e34c1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5483d5da.js",
     "static/js/2.fc15400f.chunk.js",
     "static/css/main.4abad8dd.chunk.css",
-    "static/js/main.7f1ddc5e.chunk.js"
+    "static/js/main.90035d93.chunk.js"
   ]
 }
