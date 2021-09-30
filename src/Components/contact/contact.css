@@ -1,0 +1,140 @@
+#contact{
+    height: 140vh;
+    width: 100vw;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+    position:relative;
+}
+
+.custom-shape-divider-top-1632563289 {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1632563289 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1632563289 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.contact_head{
+    margin-top: 4rem;
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    position: relative;
+    top:30%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact_head::after{
+    content: '';
+    position: absolute;
+    width: 4%;
+    height: 9%;
+    top: 100%;
+    left: 48.25%;
+    background-color: #fff;
+}
+
+
+.contact_box{
+    width: 40%;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+
+.contact_box .inputBox{
+    position: relative;
+}
+
+.contact_box .inputBox input,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+}
+
+.contact_box .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s;
+    text-transform: capitalize;
+}   
+
+.contact_box input[type="submit"]{
+    background:transparent ;
+    border: none;
+    outline: none;
+    color: var(--main);
+    background: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight:bold;
+    transition: all .2s linear;
+}
+.contact_box input[type="submit"]:hover{
+    color:#fff;
+    background: var(--green);
+}
+/* ~ general sibling operator aur valid mtlb agr input none rhega to ye label top se -20px rhega */
+.contact_box .inputBox input:focus ~ label,.contact_box .inputBox input:valid ~ label{
+    top: -20px;
+    left:0;
+    color: var(--green);
+    font-size: 12px;
+    font-weight:bold
+}
+.contact_box .inputBox textarea:focus ~ label,.contact_box .inputBox textarea:valid ~ label{
+    top: -20px;
+    left:0;
+    color: var(--green);
+    font-size: 12px;
+    font-weight:bold
+}
+
+
+/* Responsive Code */
+@media (max-width:640px){
+    #contact{
+        height: 100vh;
+    }
+    .contact_head{
+        transform: translateY(-5rem);
+    }
+    .contact_head::after{
+        width: 20%;
+        left: 40%;
+    }
+    .contact_box{
+        width: 80%;
+        top: 70%;
+    }
+}

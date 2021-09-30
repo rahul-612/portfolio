@@ -1,0 +1,146 @@
+#portfolio{
+    width:100vw;
+    height:120vh;
+    /* background-color:red; */
+    background-color: rgb(246, 245, 245);
+    
+}
+
+.port_head{
+    /* margin-top: 1rem; */
+    color: black;
+    text-align: center;
+    font-size: 5rem;
+    position: relative;  
+}
+.port_head::after{
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 7%;
+    top: 6.5rem;
+    left: 5rem;
+    background-color: #000;
+    
+}
+
+.projects{
+    margin-top: 6rem;
+    height: 80vh;
+    width: 90vw;
+    /* background-color: yellow; */
+    /* border:solid 2px hotpink; */
+}
+
+
+.menu-tab{
+    /* background-color:aqua ; */
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu_btn{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 11rem;
+    text-transform: capitalize;
+    border: solid 2px var(--main);
+    /* background-color: var(--main); */
+    color:var(--main);
+    border-radius: .5rem;
+    cursor: pointer;
+    
+}
+.menu_btn:hover{
+    background-color: var(--maroon);
+    color: #fff;
+}
+.menu_active{
+    background-color: var(--maroon);
+    color: #fff;
+}
+.project_container{
+    /* background-color: brown; */
+    overflow: scroll;
+    height: 70vh;
+    margin-top: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: dashed 1px var(--main) ;
+    /* overflow: scroll; */
+}
+/* .project_container::-webkit-scrollbar {
+    display: block;
+  } */
+.hover_effect{
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: relative;
+    transition: .3s;
+    margin: 4.4rem 0;
+    border-radius: 1rem;
+}
+.p_img{
+    height: 100%;
+    position: absolute;     /* ye humne image ko center krne k liye kia h flex se bhi kr skte h */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .8s;
+}
+.p_title{
+    position: absolute;
+    /* display: inline; */
+    font-size: 2.5rem;
+    top: 90%;
+    /* left: 26%; */
+    text-transform: capitalize;
+    background-color:#fff;
+    opacity: .8;
+    color: var(--main);
+    border-radius: 1rem;
+    width:100%;
+    text-align: center;
+    
+}
+.p_icon{
+    position: absolute;     /* ye humne image ko center krne k liye kia h flex se bhi kr skte h */
+    top: 50%;
+    left: 50%;
+    transform: translate(1500px,-50%);
+    z-index: 10;
+    color: #fff;
+    transition: .8s;
+    transition-timing-function: linear;
+}
+
+/* overlay */
+.hover_effect::after{
+content: '';
+width: 500px;
+height: 500px;
+position: absolute;
+top: 50%;
+    left: 50%;
+    transform: translate(-140%,-50%);
+    z-index: 1;
+    transition: .8s;
+    background-color: var(--green);
+    opacity: .8;
+    border-radius: 50%;
+}
+
+.hover_effect:hover::after{
+    transform:translate(-50%,-50%);
+}
+
+.hover_effect:hover .p_img{
+    transform:translate(-50%,-50%) scale(1.4);
+}
+
+.hover_effect:hover .p_icon{
+    transform: translate(-50%,-50%);
+    transition-timing-function: ease;
+}

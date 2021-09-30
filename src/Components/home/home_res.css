@@ -1,0 +1,39 @@
+@media screen and (max-width: 1007px) and (min-width: 641px){
+    .heading h1{
+       
+        font-size: 3rem;
+    }
+    .h_btn{
+        font-size: 1.5rem;
+        padding: 0.5rem 1.2rem;
+    }
+    .h_btn .fa-arrow-down{
+        top: 0.1rem;
+        margin-left: 0;
+    }
+    .h_btn .fa-arrow-right{
+        top: .6rem;
+        
+    }
+}
+
+
+@media (max-width:640px) {
+    .heading h1{
+       
+        font-size: 2rem;
+    }
+    .h_btn{
+        font-size: 1.4rem;
+        padding: 0.2rem .8rem;
+    }
+    .h_btn .fa-arrow-down{
+        top: 0.1rem;
+        margin-left: 0;
+    }
+    .h_btn .fa-arrow-right{
+        top: .3rem;
+        right:.6rem ;
+        margin-left: 0;
+    }
+}

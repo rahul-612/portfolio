@@ -1,0 +1,234 @@
+#about{
+    height:115vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.904);
+    /* margin-top: 1rem; */
+    /* background-color:yellow; */
+    position: relative;    
+
+}
+/* #about::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: .1%;
+    top: 104%;
+    left: 25%;
+    border: 2px solid var(--main);
+    border-radius: 3rem;
+    background-color: var(--main);
+    opacity: .8;
+} */
+/* .bottom_border{
+    
+    width: 50%;
+    height:.5%;
+    background-color: var(--main);
+    transform: translate(53%,25vh);
+    border-radius: 1rem;
+} */
+
+
+
+.heading_about{
+    margin-top: 4rem;
+    color: black;
+    text-align: center;
+    font-size: 5rem;
+    position: relative;
+    
+}
+.heading_about::after{
+    content: '';
+    position: absolute;
+    width: 4%;
+    height: 9%;
+    top: 100%;
+    left: 48.25%;
+    background-color: #000;
+}
+
+.h_ani{
+    animation: h_ani .6s linear;
+    /* animation-delay: .5s; */
+    } 
+    
+    @keyframes h_ani {
+      from{
+        transform: translateX(-15vw);
+      } 
+      to{
+        transform: translateX(0);
+      }
+    }
+
+.my_section{
+    margin-top: 1rem;
+    width: 100vw;
+    height: 80vh;
+    /* background-color: yellow; */
+    /* position: relative; */
+    
+}
+.bio_container{
+    width: 40%;
+    height: 115%;
+    /* background-color: blue;
+    border: 2px solid brown; */
+    position: relative;
+}
+.my_img{
+    position: absolute;
+    width: 40%;
+    height: 65%;
+    top:0%;
+    /* background-color: black; */
+    transform: translateX(16rem);
+    margin-top: 4rem;
+    background: url('../utility/my.jpg');
+    background-size:100% 100% ;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    /* border: .5rem solid rgba(0, 0, 0, 0.322); */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+    
+}
+
+/* .about{
+    width: 25vw;
+    position: absolute;
+    top:40rem;
+    font-size: 2rem;
+    text-align: center;
+} */
+
+
+.my_bio{
+    position: absolute;
+    /* background-color:red; */
+    width: 55%;
+    top: 75%;
+    left: 23%;
+    /* transform: translate(38%,252%); */
+}
+.my_bio h1{
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.my_bio p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.my_bio a{
+    font-size: 2rem;
+    margin-top: .5rem;
+    text-decoration: none;
+    text-align: center;
+}
+.my_bio a:hover{
+    text-decoration: underline;
+}
+.skills{
+    /* position: absolute; */
+    width: 46%;
+    height: 110%;
+    /* background-color: rgb(95, 3, 3); */
+    /* top:5%;
+    left: 50%; */
+    transform: translate(110%,-100%);
+}
+.bar{
+    width: 90%;
+    height: 6%;
+    background-color: #eee;
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    border-radius: .5rem;
+}
+
+
+.fill{
+    position: absolute;   
+    background: var(--green);
+    left: 0%;
+    height: 100%;
+       
+}
+.fill_bar_ani{
+    animation: fill_bar_ani .8s linear;
+    /* animation-delay: .5s; */
+  }
+  
+  @keyframes fill_bar_ani {
+    0%{
+      width: 0%;
+    }
+    50%{
+      width: 40%;
+    }
+    100%{
+  
+    }
+  }
+.bar_name{
+    position: absolute;
+    background-color: #6aad8f;
+    height: 100%;
+    width: 8.2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bar_percent{
+    position: absolute;
+    /* background-color: brown; */
+    height: 100%;
+    width: 8%;
+    right: 0%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    top: 19%;
+}
+
+.qual{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    /* background-color: brown; */
+    /* transform: translateX(82rem) translateY(-18rem); */
+    left: 20%;
+    
+    
+}
+.qual h1{
+    transform: translateX(-10rem);
+    font-size: 2.2rem;
+    margin: 1rem;
+    
+}
+.qual ul li{
+    list-style: none;
+    transform: translateX(-7rem);
+    /* padding: 1rem; */
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.qual ul li i{
+    margin-right: .8rem;
+}
+.qual ul li p{
+    margin-top: .5rem;
+    transform: translateX(2.5rem);
+    font-weight: lighter;
+    /* font-style: italic; */
+}
+
+
+ 

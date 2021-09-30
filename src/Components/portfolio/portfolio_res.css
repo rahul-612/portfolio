@@ -1,0 +1,17 @@
+@media (max-width:640px){
+    #portfolio{
+        height: 100vh;
+    }
+   
+    .menu_btn{
+        font-size: 1.2rem;
+        width: 6.5rem;
+    }
+    .hover_effect{
+        height: 200px;
+        width: 200px;
+    }
+    .p_title{
+        font-size: 2rem;
+    }
+}
