@@ -53,9 +53,12 @@ function active(e){
 
 function mobileMenu(e) {
   const navMenu = document.querySelector(".nav-menu");
-    e.target.classList.toggle("active");
-    navMenu.classList.toggle("active");
-    
+  e.target.classList.toggle("active");
+  navMenu.classList.toggle("active");
+  
+  const homeHead=document.querySelector('.heading');
+    homeHead.classList.toggle('fade-in');
+  // console.log(homeHead)
 }
 
 // Add active class to the current button (highlight it)
