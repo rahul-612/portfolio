@@ -92,3 +92,65 @@ export const About = () => {
 
 
 export default About;
+
+
+
+
+// @media (max-width:640px){
+//     .heading_about{
+//         margin-top: .5rem;
+//         font-size: 4rem;
+        
+//     }
+//     .heading_about::after{
+//         width: 10%;
+//         left: 46%;
+//     }
+//     .my_img{
+//         display: none;
+//     }
+//     .bio_container{
+//         width: 100%;
+//         height: 50%;       
+//         margin-top: 2rem;       
+//     }
+//     .my_bio{
+//         top: 0%;
+//         /* display: block; */
+//         /* width: 90%;
+//         right: 4%; */
+//         padding-bottom: 1rem;
+//         border-bottom:solid 1px gray;
+        
+//     }
+//     .fa-question{
+//         position: absolute;
+//         right: ;
+//     }
+//     .my_bio a{
+//         margin-top: 1rem;
+//     }
+//     .skills{
+//         width: 85%;
+//         height: 70%;
+//         transform: translate(15%,-12%);
+        
+//     }
+//     .bar_percent{
+//         font-size: 1.2rem;
+//     }
+//     .qual{
+//         left: 41%;
+// bottom: -8%;
+
+//     }
+//     .qual h1{
+//         /* font-size: 2rem; */
+//         text-transform: uppercase;
+//         text-decoration: underline;
+//     }
+//     .qual ul li{
+//         /* font-size: 1rem; */
+//         transform: translateX(-10rem);
+//     }
+// }

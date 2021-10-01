@@ -20,22 +20,49 @@ import weather_app from '../portfolio/imgs/weather_app.jpg';
 
 const Menu = [
     {
-       id: 1,
+        id: 1,
+        image:lead_tracker,
+        name:"Lead Tracker",
+        category: "JavaScript",
+        url:"https://github.com/rahul-612/Lead-Tracker-Chrome-Extension-"
+    },
+    {
+       id: 2,
        image: moving_car,
        name:"moving car",
        category: "css",
        url:"https://github.com/rahul-612/Moving-Car"
    },
- 
    {
-       id: 2,
+    id: 3,
+    image: chat_app,
+    name:"Realtime ChatApp",
+    category: "NodeJS",
+    url:"https://github.com/rahul-612/RealTime-ChatApp"
+},
+{
+    id: 4,
+    image: covid_tracker,
+    name:"Live Covid19",
+    category: "ReactJS",
+    url:"https://github.com/rahul-612/Live-Covid-Tracker"
+},
+{
+    id: 5,
+    image: weather_app,
+    name:"Live Weather",
+    category: "ReactJS",
+    url:"https://github.com/rahul-612/Live-Weather-App"
+},
+   {
+       id: 6,
        image: food_delivery,
        name:"food delivery",
        category: "css",
       url:"https://github.com/rahul-612/Food-Delivery"
    },
    {
-       id: 3,
+       id: 7,
        image: analog_clock,
        name:"analog clock",
        category: "css",
@@ -43,117 +70,93 @@ const Menu = [
    },
    
      {
-       id: 4,
+       id: 8,
        image:special_effects,
        name:"special effects",
        category: "css",
        url:"https://github.com/rahul-612/CSS-Special-Effects-Animations"      
    },
       {
-       id: 5,
+       id: 9,
        image: analog_clock,
        name:"Alarm Clock",
        category: "JavaScript",
        url:"https://github.com/rahul-612/Alarm-Clock"    
    },
        {
-       id: 6,
+       id: 10,
        image: black_jack,
        name:"BlackJack Game",
        category: "JavaScript",
        url:"https://github.com/rahul-612/Black-Jack-Game"
    },
        {
-       id: 7,
+       id: 11,
        image: budget_app,
        name:"Budget App",
        category: "JavaScript",
        url:"https://github.com/rahul-612/Budget-App"
    },
        {
-       id: 8,
+       id: 12,
        image: cal,
        name:"Calculator",
        category: "JavaScript",
        url:"https://github.com/rahul-612/Calculator"
    },
    {
-    id: 9,
+    id: 13,
     image: cv_screener,
     name:"CV Screener",
     category: "JavaScript",
     url:"https://github.com/rahul-612/CV-Screener"
 },
 {
-    id: 10,
+    id: 14,
     image: drag_drop,
     name:"Drag & Drop",
     category: "JavaScript",
     url:"https://github.com/rahul-612/Drag-and-Drop-Element"
 },
+
 {
-    id: 11,
-    image:lead_tracker,
-    name:"Lead Tracker",
-    category: "JavaScript",
-    url:"https://github.com/rahul-612/Lead-Tracker-Chrome-Extension-"
-},
-{
-    id: 12,
+    id: 15,
     image: postman,
     name:"PostMan Clone",
     category: "JavaScript",
     url:"https://github.com/rahul-612/Postman-Clone"
 },
 {
-    id: 13,
+    id: 16,
     image: snake,
     name:"Snake Game",
     category: "JavaScript",
     url:"https://github.com/rahul-612/Snake-Game"
 },
+
 {
-    id: 14,
-    image: chat_app,
-    name:"Realtime ChatApp",
-    category: "NodeJS",
-    url:"https://github.com/rahul-612/RealTime-ChatApp"
-},
-{
-    id: 15,
+    id: 17,
     image: node_weather,
     name:"Weather App",
     category: "NodeJS",
     url:"https://github.com/rahul-612/Node-Weather"
 },
+
 {
-    id: 16,
-    image: covid_tracker,
-    name:"Live Covid19",
-    category: "ReactJS",
-    url:"https://github.com/rahul-612/Live-Covid-Tracker"
-},
-{
-    id: 17,
+    id: 18,
     image: keep_clone,
     name:"Keep Clone",
     category: "ReactJS",
     url:"https://github.com/rahul-612/Keep-Clone"
 },
 {
-    id: 18,
+    id: 19,
     image: todo,
     name:"ToDo List",
     category: "ReactJS",
     url:"https://github.com/rahul-612/ToDo-List"
 },
-{
-    id: 19,
-    image: weather_app,
-    name:"Live Weather",
-    category: "ReactJS",
-    url:"https://github.com/rahul-612/Live-Weather-App"
-},
+
 ];
 
 
