@@ -21,10 +21,10 @@
 @media (max-width:640px) {
     .heading h1{
        
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .h_btn{
-        font-size: 1.4rem;
+        font-size: 2.4rem;
         padding: 0.2rem .8rem;
     }
     .h_btn .fa-arrow-down{
@@ -32,7 +32,7 @@
         margin-left: 0;
     }
     .h_btn .fa-arrow-right{
-        top: .3rem;
+        top: .5rem;
         right:.6rem ;
         margin-left: 0;
     }

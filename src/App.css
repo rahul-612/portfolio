@@ -6,15 +6,17 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
+  max-width: 100%;
+  
   /* overflow-x: hidden; */
 }
 /* to hide the scrollbar in every browser 
 1-Hide scrollbar for Chrome, Safari and Opera
 2-Hide scrollbar for IE, Edge and Firefox*/
  
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
   display: none;
-}  
+}   */
 
   *{
   -ms-overflow-style: none;  /* IE and Edge */
@@ -125,4 +127,8 @@ animation: h_ani .8s linear;
 *::selection{
   background-color: var(--maroon);
   color: #fff;
+}
+
+@media (max-width:640px){
+  
 }

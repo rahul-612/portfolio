@@ -65,7 +65,7 @@ export const About = () => {
            <div className="bio_container">
                 <div className="my_img"></div>
                 <div className="my_bio flex">
-                    <h1 className="flex">Who's this guy❓</h1>
+                    <h1 className="flex">Who's this guy<i class="fas fa-question"></i></h1>
                     <p className="flex"> Hi, My name is Rahul Kumar. I have a good knowledge of <span style={{ color: '#3D9970', fontWeight: 'bold' }}>Front-end development</span>.I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
                     <a href="#contact" style={{ color: '#3D9970', fontWeight: 'bold' }}>Let's make something special</a>
                 </div>

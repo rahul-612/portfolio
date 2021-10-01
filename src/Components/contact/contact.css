@@ -123,18 +123,16 @@
 
 /* Responsive Code */
 @media (max-width:640px){
-    #contact{
-        height: 100vh;
-    }
     .contact_head{
-        transform: translateY(-5rem);
+        font-size: 3rem;
+    transform: translateY(-7rem);
     }
     .contact_head::after{
         width: 20%;
         left: 40%;
     }
     .contact_box{
-        width: 80%;
-        top: 70%;
+        width: 95%;
+        top: 60%;
     }
 }
