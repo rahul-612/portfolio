@@ -19,6 +19,9 @@
 
 
 @media (max-width:640px) {
+    #home{
+        height: 50vh;
+    }
     .heading h1{
        
         font-size: 2.5rem;

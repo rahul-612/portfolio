@@ -1,8 +1,6 @@
 import React, { useState,useContext } from 'react'
 import './navbar.css'
 import './navbar_res.css'
-// import useOnScreen from '../about/observer';
-
 
 
 export const Navbar = () => {
@@ -44,13 +42,6 @@ function active(e){
 }
 
 
-// const hamburger=document.querySelector('.hamburger');
-// console.log(hamburger)
-// const navMenu = document.querySelector(".nav-menu");
-// if(hamburger){
-//   hamburger.addEventListener("click", mobileMenu);
-// }
-
 function mobileMenu(e) {
   const navMenu = document.querySelector(".nav-menu");
   e.target.classList.toggle("active");
@@ -60,20 +51,6 @@ function mobileMenu(e) {
     homeHead.classList.toggle('fade-in');
   // console.log(homeHead)
 }
-
-// Add active class to the current button (highlight it)
-
-// var btns = document.getElementsByClassName("btn");
-// console.log(btns)
-// for (var i = 0; i < btns.length; i++) {
-//   btns[i].addEventListener("click", function() {
-//   var current = document.getElementsByClassName("active");
-//   if (current.length > 0) { 
-//     current[0].className = current[0].className.replace(" active", "");
-//   }
-//   this.className += " active";
-//   });
-// }
 
 
 

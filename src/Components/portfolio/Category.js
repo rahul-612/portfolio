@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-// object destructuring kr rhe jo ki match honi chaiye to hume props likhne ki jarurt ni h
+
 const Category = ({filterItem,catItems}) => {
     return (
         <>

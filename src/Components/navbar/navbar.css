@@ -44,20 +44,20 @@ nav ul li{
 
 .navBtn::before{
     content: '';
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 0;
-            height: 3px;
-            background-color:#000;
-            transition: all .8s linear;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color:#000;
+    transition: all .8s linear;
             
 }
 
 .navBtn::after{
     content: '';
     position: absolute;
-    top: 100%;  /* agr top:100% krege to new effect dikhega */
+    top: 100%; 
     right: 0;
     width: 0;
     height: 3px;
@@ -73,11 +73,6 @@ nav ul li{
     width: 100%;
             background-color: var(--maroon);
 }
-/* ul li a:hover{
-    background-color: var(--maroon);
-    color: white;
-    border-radius: 1rem;
-} */
 
 .nav_bottom_border{
     position: absolute;

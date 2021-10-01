@@ -7,28 +7,6 @@
     position: relative;    
 
 }
-/* #about::after{
-    content: '';
-    position: absolute;
-    width: 50%;
-    height: .1%;
-    top: 104%;
-    left: 25%;
-    border: 2px solid var(--main);
-    border-radius: 3rem;
-    background-color: var(--main);
-    opacity: .8;
-} */
-/* .bottom_border{
-    
-    width: 50%;
-    height:.5%;
-    background-color: var(--main);
-    transform: translate(53%,25vh);
-    border-radius: 1rem;
-} */
-
-
 
 .heading_about{
     margin-top: 4rem;
@@ -89,19 +67,9 @@
     background-size:100% 100% ;
     background-repeat: no-repeat;
     border-radius: 1rem;
-    /* border: .5rem solid rgba(0, 0, 0, 0.322); */
-    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+   
     
 }
-
-/* .about{
-    width: 25vw;
-    position: absolute;
-    top:40rem;
-    font-size: 2rem;
-    text-align: center;
-} */
-
 
 .my_bio{
     position: absolute;

@@ -37,98 +37,18 @@ html{
   align-items: center;
   flex-direction: column;
 }
-/* .display{
-  visibility: hidden;
-}
-.displayOn{
-  visibility:visible ;
-}
-.h_ani{
-animation: h_ani .8s linear;
-} 
-
-@keyframes h_ani {
-  from{
-    transform: translateX(-55vw);
-  } 
-  to{
-    transform: translateX(0);
-  }
-}
-
- .img_ani{
-  animation: img_ani .8s linear;
-  animation-delay: .8s;
-}
-
-@keyframes img_ani {
-  from{
-    
-    transform: translateX(-28rem);
-  } 
-  to{
-    transform: translateX(16rem);
-  }
-}
-
-.skill_ani{
-  animation: skill_ani .8s linear;
-  animation-delay: .8s;
-}
-
-@keyframes skill_ani {
-  from{
-    transform: translateX(100vw) translateY(8vh);
-  } 
-  to{
-    transform: translateX(50vw) translateY(8vh);
-  }
-}
-
-.fill_bar_ani{
-  animation: fill_bar_ani .8s linear;
-  animation-delay: .8s;
-}
-
-@keyframes fill_bar_ani {
-  0%{
-    width: 0%;
-  }
-  50%{
-    width: 40%;
-  }
-  100%{
-
-  }
-} */
-
-
-
-
-/* .display{
-  visibility: hidden;
-}
-.displayOn{
-  visibility:visible ;
-} */
 
 .fade-in {
   opacity: 0;
   -webkit-transition: opacity 250ms ease-in;
-  transition: opacity 250ms ease-in;
-  
+  transition: opacity 250ms ease-in; 
 }
 
 .appear {
-  opacity: 1;
-  
+  opacity: 1; 
 }
 
 *::selection{
   background-color: var(--maroon);
   color: #fff;
-}
-
-@media (max-width:640px){
-  
 }

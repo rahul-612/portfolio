@@ -40,7 +40,7 @@ font-size: 1.9rem;
 
 @media screen and (max-width:640px){
     .heading_about{
-        margin-top: .5rem;
+        margin-top: 1.5rem;
         font-size: 4rem;         
         }
     .heading_about::after{
@@ -86,11 +86,12 @@ font-size: 1.9rem;
         }
     .qual h1{
     /* font-size: 2rem; */
+    transform: translateX(-5rem);
         text-transform: uppercase;
     text-decoration: underline;
     }
     .qual ul li{
     /* font-size: 1rem; */
-    transform: translateX(-10rem);
+    transform: translateX(-4rem);
 }
 }

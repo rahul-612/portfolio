@@ -104,7 +104,7 @@
     color:#fff;
     background: var(--green);
 }
-/* ~ general sibling operator aur valid mtlb agr input none rhega to ye label top se -20px rhega */
+
 .contact_box .inputBox input:focus ~ label,.contact_box .inputBox input:valid ~ label{
     top: -20px;
     left:0;
@@ -125,7 +125,7 @@
 @media (max-width:640px){
     .contact_head{
         font-size: 3rem;
-    transform: translateY(-7rem);
+    transform: translateY(-3rem);
     }
     .contact_head::after{
         width: 20%;
@@ -133,6 +133,6 @@
     }
     .contact_box{
         width: 95%;
-        top: 60%;
+        top: 70%;
     }
 }

@@ -84,7 +84,7 @@
 }
 .p_img{
     height: 100%;
-    position: absolute;     /* ye humne image ko center krne k liye kia h flex se bhi kr skte h */
+    position: absolute; 
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -106,7 +106,7 @@
     
 }
 .p_icon{
-    position: absolute;     /* ye humne image ko center krne k liye kia h flex se bhi kr skte h */
+    position: absolute;    
     top: 50%;
     left: 50%;
     transform: translate(1500px,-50%);
