@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <footer className="flex">
                 <div className="foot_link_container flex">
-                <a className="foot_link" href="#" target="_blank">
+                <a className="foot_link" href="linkedin.com/in/rahul-kumar-83658a222" target="_blank">
                     <i className="fab fa-2x fa-linkedin"></i>
                 </a>
                 <a className="foot_link" href="https://github.com/rahul-612" target="_blank">
